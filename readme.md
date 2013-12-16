@@ -1,6 +1,7 @@
 # Test Footguard
 
 [![Build Status](https://travis-ci.org/mazerte/test-footguard.png?branch=master)](https://travis-ci.org/mazerte/test-footguard)
+[![Dependency Status](https://gemnasium.com/mazerte/test-footguard.png)](https://gemnasium.com/mazerte/test-footguard)
 
 ## Usage
 
