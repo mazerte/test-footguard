@@ -185,7 +185,6 @@ module.exports = (grunt)->
 		coffeecov:
 			options:
 				path: 'relative'
-				srcBasePath: '<%= yeoman.src %>/coffee/app/'
 			dist:
 				src: '<%= yeoman.src %>/coffee/app'
 				dest: '<%= yeoman.tmp %>/js/app'
