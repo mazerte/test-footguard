@@ -4,7 +4,7 @@ node_js:
 
 env:
   global:
-    secure: M0fi0SMDtqyALeKLzONkEOA7+P9EWBTdjtn6GnxHc9EodYTIo1B4/Stg3nFus842whq1mm4mfEctWu3Jc/sTtyfi+N115hlqjb10mPZiqp7zBFpaqh8ikRDBRTYrkL2dCfsUNN1YqUrD52JUhQn67bo3sSDnoQA018bs+Lt1/9g=
+    secure: hc0s49uOKKAlM/np6jCd4il3K0fI+gv/cQZTuu0f5xJEWxp9I4BuhDNjA/vzesA0192Z784pjjpuLkB63W7c7oEPuudhwxUbv80GCwdq2v2vI7i+tAdqLCGTlFl8VwsolSLI/g3DQTjxL54zuHxb9EIvlmkAu3togPtPSGS7DZA=
 
 before_script:
   - npm install -g bower grunt-cli
@@ -16,5 +16,7 @@ script:
   - cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js src/coffee/app
 
 after_success:
+  - git config --global user.email "mathieu.desve@me.com" && echo 'ok'
+  - git config --global user.name "Mathieu Desvé" && echo 'ok'
   - grunt build
   - REPO="https://$GH_USER:$GH_PASSWORD@github.com/mazerte/test-footguard" ./scripts/gh-pages.sh
