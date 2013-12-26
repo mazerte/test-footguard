@@ -1,10 +1,15 @@
 language: node_js
 node_js:
-  - "0.10"
-
+  - '0.10'
 env:
   global:
     secure: hc0s49uOKKAlM/np6jCd4il3K0fI+gv/cQZTuu0f5xJEWxp9I4BuhDNjA/vzesA0192Z784pjjpuLkB63W7c7oEPuudhwxUbv80GCwdq2v2vI7i+tAdqLCGTlFl8VwsolSLI/g3DQTjxL54zuHxb9EIvlmkAu3togPtPSGS7DZA=
+
+deploy:
+  api_key:
+    secure: KROkkA9OfpbzN2SXf2M+2f5c6s4MYIECmXgaUfYYyTeC33K8xZd9+UwlJEteOGaiyrJIww5LeqZ+rd5C7x/GfkaqohjGb0P6csHlQwBbsxqKHiyQOJuXUdFJb9J8U2kjn25xv0HujuzFgiqMU4oW+idIaN66EMxfNEv5Hbj9rjo=
+  on:
+    condition: "2 = 1"
 
 before_script:
   - npm install -g bower grunt-cli
@@ -18,3 +23,4 @@ script:
 after_success:
   - grunt build
   - REPO="https://$GH_USER:$GH_PASSWORD@github.com/mazerte/test-footguard" ./scripts/gh-pages.sh
+  - APP=test-footguard ./scripts/heroku.sh
