@@ -16,7 +16,7 @@ script:
   - cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js src/coffee/app
 
 after_success:
-  - git config --global user.email "mathieu.desve@me.com"
-  - git config --global user.name "Mathieu Desvé"
+  - git config --global user.email "mathieu.desve@me.com" | echo 'ok'
+  - git config --global user.name "Mathieu Desvé" | echo 'ok'
   - grunt build
   - REPO="https://$GH_USER:$GH_PASSWORD@github.com/mazerte/test-footguard" ./scripts/gh-pages.sh
