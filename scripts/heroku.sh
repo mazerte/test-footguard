@@ -3,6 +3,7 @@
 # if [ -z "$TRAVIS" ]
 # then
 echo "Prepare heroku"
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 echo "Host heroku.com" >> ~/.ssh/config
 echo "   StrictHostKeyChecking no" >> ~/.ssh/config
 echo "   CheckHostIP no" >> ~/.ssh/config
