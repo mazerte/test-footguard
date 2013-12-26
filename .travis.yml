@@ -7,8 +7,6 @@ env:
     secure: hc0s49uOKKAlM/np6jCd4il3K0fI+gv/cQZTuu0f5xJEWxp9I4BuhDNjA/vzesA0192Z784pjjpuLkB63W7c7oEPuudhwxUbv80GCwdq2v2vI7i+tAdqLCGTlFl8VwsolSLI/g3DQTjxL54zuHxb9EIvlmkAu3togPtPSGS7DZA=
 
 before_script:
-  - git config user.email "mathieu.desve@me.com"
-  - git config user.name "Mathieu Desvé"
   - npm install -g bower grunt-cli
   - gem install compass
   - bower install
