@@ -4,7 +4,7 @@ node_js:
 
 env:
   global:
-    secure: RKmtDqHqK1CokgNUTT4piRN+Fz0guBzgisHtncwyPv4V81jfPzohB5y/pPZ6cmC+znc8w2qGMJoUrptiiFhb5LvtCji/iWLinAiOBfhHYqUExPk8yz9qfW1+jTUQ5i8wn/YNiR1Thysop3GpNG9jk+n2CqLEs5pKrp4DrfRk47Y=
+    secure: M0fi0SMDtqyALeKLzONkEOA7+P9EWBTdjtn6GnxHc9EodYTIo1B4/Stg3nFus842whq1mm4mfEctWu3Jc/sTtyfi+N115hlqjb10mPZiqp7zBFpaqh8ikRDBRTYrkL2dCfsUNN1YqUrD52JUhQn67bo3sSDnoQA018bs+Lt1/9g=
 
 before_script:
   - npm install -g bower grunt-cli
