@@ -3,7 +3,7 @@
 cd dist
 rm -rf .git
 git init
-git remote add heroku "git@heroku.com:$APP.git" > /dev/null 2>&1
+yes | git remote add heroku "git@heroku.com:$APP.git" > /dev/null 2>&1
 git push origin --delete heroku > /dev/null 2>&1
 git checkout -b heroku
 git add --all
