@@ -10,3 +10,6 @@ before_script:
 script:
   - grunt test
   - cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js src/coffee/app
+
+after_success:
+  - ./scripts/gh-pages.sh
