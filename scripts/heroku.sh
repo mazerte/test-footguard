@@ -21,5 +21,5 @@ git push origin --delete heroku > /dev/null 2>&1
 git checkout -b heroku
 git add --all
 git commit -m "$message"
-yes | git push heroku heroku:master > /dev/null 2>&1
+yes | git push heroku heroku:master
 cd ..
