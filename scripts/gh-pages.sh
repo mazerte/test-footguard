@@ -3,6 +3,8 @@
 if $REPO
 then
 	REPO=$(git config --get remote.origin.url)
+	git config --global user.email "mathieu.desve@me.com"
+	git config --global user.name "Mathieu Desvé"
 fi
 message=$(git log -1 --pretty=%B)
 
