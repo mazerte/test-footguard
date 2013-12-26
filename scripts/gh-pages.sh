@@ -3,6 +3,11 @@
 if [ -z "$REPO" ]
 then
 	REPO=$(git config --get remote.origin.url)
+else
+	author=$(git log -1 --pretty=%an)
+	git config --global user.name "$author"
+	email=$(git log -1 --pretty=%ae)
+	git config --global user.email "$email"
 fi
 message=$(git log -1 --pretty=%B)
 
