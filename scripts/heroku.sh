@@ -25,7 +25,7 @@ git commit -m "$message"
 
 /usr/bin/expect <<EOD
 spawn git push heroku heroku:master
-expect "nter passphrase:"
+expect "nter passphrase"
 send $SSH_PASS"/r"
 interact
 EOD
