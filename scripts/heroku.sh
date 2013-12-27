@@ -6,17 +6,10 @@ echo "Prepare heroku"
 echo "Host heroku.com" >> ~/.ssh/config
 echo "   StrictHostKeyChecking no" >> ~/.ssh/config
 echo "   CheckHostIP no" >> ~/.ssh/config
-echo "   UserKnownHostsFile=/dev/null" >> ~/.ssh/config
+echo "   IdentityFile ~/.ssh/id_rsa" >> ~/.ssh/config
 echo -n $id_rsa_{0..23} >> ~/.ssh/id_rsa_base64
 base64 --decode --ignore-garbage ~/.ssh/id_rsa_base64 > ~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa
-sudo apt-get install expect
-/usr/bin/expect <<EOD
-spawn ssh-add
-expect "nter passphrase"
-send $SSH_PASS"/r"
-interact
-EOD
 # fi
 
 message=$(git log -1 --pretty=%B)
