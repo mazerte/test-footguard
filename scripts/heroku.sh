@@ -21,8 +21,5 @@ yes | git remote add heroku "git@heroku.com:$APP.git"
 git checkout -b heroku
 git add --all
 git commit -m "$message"
-spawn git push heroku heroku:master
-expect "nter passphrase:"
-send $SSH_PASS"/r"
-interact
+sshpass -p "$SSH_PASS" git push heroku heroku:master
 cd ..
