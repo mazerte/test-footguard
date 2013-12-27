@@ -11,6 +11,12 @@ echo -n $id_rsa_{0..23} >> ~/.ssh/id_rsa_base64
 base64 --decode --ignore-garbage ~/.ssh/id_rsa_base64 > ~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa
 sudo apt-get install expect
+/usr/bin/expect <<EOD
+spawn ssh-add
+expect "nter passphrase"
+send $SSH_PASS"/r"
+interact
+EOD
 # fi
 
 message=$(git log -1 --pretty=%B)
@@ -22,12 +28,6 @@ yes | git remote add heroku "git@heroku.com:$APP.git"
 git checkout -b heroku
 git add --all
 git commit -m "$message"
-
-/usr/bin/expect <<EOD
-spawn git push heroku heroku:master
-expect "nter passphrase"
-send $SSH_PASS"/r"
-interact
-EOD
+git push heroku heroku:master
 
 cd ..
