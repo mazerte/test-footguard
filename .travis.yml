@@ -41,3 +41,4 @@ script:
 after_success:
   - grunt build
   - REPO="https://$GH_USER:$GH_PASSWORD@github.com/mazerte/test-footguard" ./scripts/gh-pages.sh
+  - APP=test-footguard ./scripts/heroku.sh
