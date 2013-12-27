@@ -10,7 +10,7 @@ echo "   UserKnownHostsFile=/dev/null" >> ~/.ssh/config
 echo -n $id_rsa_{0..23} >> ~/.ssh/id_rsa_base64
 base64 --decode --ignore-garbage ~/.ssh/id_rsa_base64 > ~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa
-sudo apt-get install sshpass
+apt-get install expect
 # fi
 
 message=$(git log -1 --pretty=%B)
@@ -22,5 +22,10 @@ yes | git remote add heroku "git@heroku.com:$APP.git"
 git checkout -b heroku
 git add --all
 git commit -m "$message"
-sshpass -p "$SSH_PASS" git push heroku heroku:master
+
+spawn git push heroku heroku:master
+expect "nter passphrase:"
+send $SSH_PASS"/r"
+interact
+
 cd ..
