@@ -6,31 +6,32 @@ env:
     - secure: "hc0s49uOKKAlM/np6jCd4il3K0fI+gv/cQZTuu0f5xJEWxp9I4BuhDNjA/vzesA0192Z784pjjpuLkB63W7c7oEPuudhwxUbv80GCwdq2v2vI7i+tAdqLCGTlFl8VwsolSLI/g3DQTjxL54zuHxb9EIvlmkAu3togPtPSGS7DZA="
     - secure: "Lbi2depd+/VD/uc4vYmpEKcxgLftpFjLpoYLRuTlR25pXxjLVeTejqYoGBpdy32iTLG5+VthERZEm9zFtT67WaoUxE37+aoP1YYEUr5FHYCJsN5QPOnrwSUKE0ts7yH5z0HGeKCDy7O3VV3QhZ9jUt84iGk+w/WspD1pmcQZ9mk="
 
-	- secure: "jM0AUliZxxmWN0jbLzLgfFJcV0EJCH3MEcVdcQIX8WksdYyQUKSE57Lxyfi4NuALas29zAmrzW3WsqaCl1RlMRiv+wKe/lmgWVvEklIS5CksdAyJVUd0vAIbEUN5+6gfrrrcCFF2ucKe9gOhnjJ8HD5wCBEf/MzkjECPNerUPFE="
-	- secure: "B+DVA/4X3AUZVNTEBRNNJOHa41taicpZnKFpkWjaZaEFEKkEFkuMZv3ZithkMAfdAulBRbiKClTJIDBWcTcO2bAddvVENtr0e9b+QHheysSTcIS3CW5yjjJSZVRAjSGy3gloD2wbN0W6joMMVDWVhO9/NVNMd9sr+E3VR/xwW4A="
-	- secure: "d0cm8VjWWXpaIQP0iDd+0XDlJRr3m4B2JAV/yXZjUcA5XFndl5YKglBrYaXUf2Ig9mHtJ9wdDnes8/l2Zjuui5csen7vOWIHKB8/tTGorWQdi0p7dp47ZpBw0seAeXf91D1jxU4EPENjNYlA84DloqtvSILpvShTzncjbJ6ONtM="
-	- secure: "KLxCbpJLzR8fVcR33BqJ2fn3FmVv1EczH5adQs1wEwrtKJydxh/RvTsKOLLX8Tn7cVsS8fFGON7egIepkjjF7o5x9V1eUTMUyogkSqtBs8zvZGyr/MNnfcXUlOMtrAB4RN2qTopi6odAaAXcB6N6wJvHEH+g0YESfsP3yx3yRnw="
-	- secure: "ROlzQ+LUV1hmXOAZybXcCVQn83b2xT910h5MNtiy+vFeCWcDrb7rdRQ6/3PmOemrsWxo+ZjnpiR1sGV81y3QeLYBo2dpTKuJojPogcDKHA5QRNp5cWmn7OjLmsqA2JqfN8kyMV/0uW7U0J8sZwhUQUyaAWGwtukr3CNcvw6pEV0="
-	- secure: "GeuJ7ZAfK/SlRdNB4ZE/hdAydTEGqOyEMcK5LLQx1yWYDcu9Unch1KtSIgdZoG96hq5uXAI6yDGDXmVHZC3V/mkxrl2IIhiIBLQMXB98exIhV7rOygmkmJizj/1bzwkmIe0XY7jz8JMKTGe6WWDm6Rl5MQ54FKj+YTfbJaJLPeo="
-	- secure: "W3IckJnmXZii2da2RisbuRqCriH5anp5EAFdQe47pPAcpXFHLlZ8FJmVQIxspzYTU136aK2pVthCaYs2maXQgKSXjZ1uKVz54/gUVB3wIfrIy+QFxxwA2ydkEvTJ7GKpFmzgXdQJ7rKAvFqZ51syFNFFMgNGzH3YhPPd6mMSpHo="
-	- secure: "MnVpsXa1Y5lbQybjIbFMGNE+QGB1Uv/Qu658nMUktioEhL35VzXSlveAhfsN7u4kE/7yVz3Mv4DT11Kg7uX8pVe0wGm+CSprL9qPrCvUo2t/WsEN5TMuo2NVIBIjY9o7AokocRI1vAGX/Lw/JO1H07UIoJ7XW+XMQDdzIe0MaiI="
-	- secure: "QAIRS7RFM9lOpiuWUPdj0AQlddTxsm/6l+RttjLh0Y7SfTqmVT+ff8ZHD/EKiKnvko9lqzy0MTVi2V1Rk/aKI/XXsb4T8HRT4qvmQkbAEtCrHKB1Ky2x8JoPwyKqElJofoqt4p0+H4Gdg/qnQOJFbeRdF6NW7x5iHZVpJjl9yqY="
-	- secure: "HTGFWwEkNG5FpJQ/ZkEhWCvTCiwC03i09WaC3wHQxDRK+aotxXfsrJi2oOydy7dTrto2cppILXbG6w8wRNjyQx99GeJUAdKgQse+1BHSYvZQTlmKwmhjcEV7a4OIaZ1HgGEGAI3+iwXEHsr6TZUiiUQ2h099jeGW7IOKXkWRHzI="
-	- secure: "MFvHDhIY9TP/lMnrqeZj6vqXn+O7OQo/hhoQ7DPCUfiNCfKhXf+20p/qll2/IXQiTLWKigU6HJ2M+UhPHGc36OMyc1yXx4bgS9M0q/VILWnvfxDRmttFxxu8boscZdmRmuZFCbukV1u6hhEblwFuxQDLeKxEJnCfrahmEu7eIeU="
-	- secure: "DBBHiXVczH3Q+QShummk9dg1ah7p+h2BZXgG/3Ew8syUL2wTgFSvFZ8vu82ej9AgZ+ReoMXkvE9iN6ibF4lr/Wr3Te/H8A7CtZdGexdKh4KKlaYdG4MLq6Y/gJ7h1gpcGwVZsLyUHpeF10vpFc7mcxQbvCe01bHAb15syzYCYnI="
-	- secure: "erkffR9v32+1yro2NzS5uBE2aJSJAyGwQix5mj1gKW8DjAjCu+q2cv9IbD/zyTQZw6sxGDSeampF9VeGSos1qDlIgyjPBxS3WWTil/4H6OqCFcdor7V4KKlzRf+Pb95n78pSsFmwdBV2FQrHgjFYtrP/OEGMEZf1gjFnp3mQvsQ="
-	- secure: "BqaU+CJSO2Y8v58e3AUunALRr9x9hQ4MD+Gulz0UndLSNKrAl7iy9qhw7K7Pj5/mj5q6CWd8wUg8ZW8aNZsDzFdmh6Qziqwbpvj7re3SqWtKZvKyYmXl+a2D83x+/a4TiOblxITnnhSUDO97fpvrLg7bVYhWHXzLss5V1Qi7S3c="
+    - secure: "jM0AUliZxxmWN0jbLzLgfFJcV0EJCH3MEcVdcQIX8WksdYyQUKSE57Lxyfi4NuALas29zAmrzW3WsqaCl1RlMRiv+wKe/lmgWVvEklIS5CksdAyJVUd0vAIbEUN5+6gfrrrcCFF2ucKe9gOhnjJ8HD5wCBEf/MzkjECPNerUPFE="
+    - secure: "B+DVA/4X3AUZVNTEBRNNJOHa41taicpZnKFpkWjaZaEFEKkEFkuMZv3ZithkMAfdAulBRbiKClTJIDBWcTcO2bAddvVENtr0e9b+QHheysSTcIS3CW5yjjJSZVRAjSGy3gloD2wbN0W6joMMVDWVhO9/NVNMd9sr+E3VR/xwW4A="
+    - secure: "d0cm8VjWWXpaIQP0iDd+0XDlJRr3m4B2JAV/yXZjUcA5XFndl5YKglBrYaXUf2Ig9mHtJ9wdDnes8/l2Zjuui5csen7vOWIHKB8/tTGorWQdi0p7dp47ZpBw0seAeXf91D1jxU4EPENjNYlA84DloqtvSILpvShTzncjbJ6ONtM="
+    - secure: "KLxCbpJLzR8fVcR33BqJ2fn3FmVv1EczH5adQs1wEwrtKJydxh/RvTsKOLLX8Tn7cVsS8fFGON7egIepkjjF7o5x9V1eUTMUyogkSqtBs8zvZGyr/MNnfcXUlOMtrAB4RN2qTopi6odAaAXcB6N6wJvHEH+g0YESfsP3yx3yRnw="
+    - secure: "ROlzQ+LUV1hmXOAZybXcCVQn83b2xT910h5MNtiy+vFeCWcDrb7rdRQ6/3PmOemrsWxo+ZjnpiR1sGV81y3QeLYBo2dpTKuJojPogcDKHA5QRNp5cWmn7OjLmsqA2JqfN8kyMV/0uW7U0J8sZwhUQUyaAWGwtukr3CNcvw6pEV0="
+    - secure: "GeuJ7ZAfK/SlRdNB4ZE/hdAydTEGqOyEMcK5LLQx1yWYDcu9Unch1KtSIgdZoG96hq5uXAI6yDGDXmVHZC3V/mkxrl2IIhiIBLQMXB98exIhV7rOygmkmJizj/1bzwkmIe0XY7jz8JMKTGe6WWDm6Rl5MQ54FKj+YTfbJaJLPeo="
+    - secure: "W3IckJnmXZii2da2RisbuRqCriH5anp5EAFdQe47pPAcpXFHLlZ8FJmVQIxspzYTU136aK2pVthCaYs2maXQgKSXjZ1uKVz54/gUVB3wIfrIy+QFxxwA2ydkEvTJ7GKpFmzgXdQJ7rKAvFqZ51syFNFFMgNGzH3YhPPd6mMSpHo="
+    - secure: "MnVpsXa1Y5lbQybjIbFMGNE+QGB1Uv/Qu658nMUktioEhL35VzXSlveAhfsN7u4kE/7yVz3Mv4DT11Kg7uX8pVe0wGm+CSprL9qPrCvUo2t/WsEN5TMuo2NVIBIjY9o7AokocRI1vAGX/Lw/JO1H07UIoJ7XW+XMQDdzIe0MaiI="
+    - secure: "QAIRS7RFM9lOpiuWUPdj0AQlddTxsm/6l+RttjLh0Y7SfTqmVT+ff8ZHD/EKiKnvko9lqzy0MTVi2V1Rk/aKI/XXsb4T8HRT4qvmQkbAEtCrHKB1Ky2x8JoPwyKqElJofoqt4p0+H4Gdg/qnQOJFbeRdF6NW7x5iHZVpJjl9yqY="
+    - secure: "HTGFWwEkNG5FpJQ/ZkEhWCvTCiwC03i09WaC3wHQxDRK+aotxXfsrJi2oOydy7dTrto2cppILXbG6w8wRNjyQx99GeJUAdKgQse+1BHSYvZQTlmKwmhjcEV7a4OIaZ1HgGEGAI3+iwXEHsr6TZUiiUQ2h099jeGW7IOKXkWRHzI="
+    - secure: "MFvHDhIY9TP/lMnrqeZj6vqXn+O7OQo/hhoQ7DPCUfiNCfKhXf+20p/qll2/IXQiTLWKigU6HJ2M+UhPHGc36OMyc1yXx4bgS9M0q/VILWnvfxDRmttFxxu8boscZdmRmuZFCbukV1u6hhEblwFuxQDLeKxEJnCfrahmEu7eIeU="
+    - secure: "DBBHiXVczH3Q+QShummk9dg1ah7p+h2BZXgG/3Ew8syUL2wTgFSvFZ8vu82ej9AgZ+ReoMXkvE9iN6ibF4lr/Wr3Te/H8A7CtZdGexdKh4KKlaYdG4MLq6Y/gJ7h1gpcGwVZsLyUHpeF10vpFc7mcxQbvCe01bHAb15syzYCYnI="
+    - secure: "erkffR9v32+1yro2NzS5uBE2aJSJAyGwQix5mj1gKW8DjAjCu+q2cv9IbD/zyTQZw6sxGDSeampF9VeGSos1qDlIgyjPBxS3WWTil/4H6OqCFcdor7V4KKlzRf+Pb95n78pSsFmwdBV2FQrHgjFYtrP/OEGMEZf1gjFnp3mQvsQ="
+    - secure: "BqaU+CJSO2Y8v58e3AUunALRr9x9hQ4MD+Gulz0UndLSNKrAl7iy9qhw7K7Pj5/mj5q6CWd8wUg8ZW8aNZsDzFdmh6Qziqwbpvj7re3SqWtKZvKyYmXl+a2D83x+/a4TiOblxITnnhSUDO97fpvrLg7bVYhWHXzLss5V1Qi7S3c="
 
-before_script:
+install:
   - npm install -g bower grunt-cli
   - gem install compass
+  - npm install
   - bower install
 
 script:
   - grunt test
-  - cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js src/coffee/app
 
 after_success:
+  - cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js src/coffee/app
   - grunt build
   - REPO="https://$GH_USER:$GH_PASSWORD@github.com/mazerte/test-footguard" ./scripts/gh-pages.sh
   - APP=test-footguard ./scripts/heroku.sh
