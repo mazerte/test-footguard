@@ -13,10 +13,10 @@ count=0
 do 
 	content="$(cat $FILENAME)"
 	rm -f $FILENAME
-	cd $current
+	cd "$current"
 	echo "- secure: $(travis encrypt "id_rsa_$count=$content" --no-interactive)"
 	cd $dir
 	count=$((count +1))
 done
 rm -f $FILE"_base64"
-cd $current
+cd "$current"
