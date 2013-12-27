@@ -13,7 +13,9 @@ chmod 600 ~/.ssh/id_rsa
 eval `ssh-agent -s`
 sudo apt-get install expect
 /usr/bin/expect <<EOD
-spawn ls ~/.ssh/
+spawn ssh-add
+expect "nter passphrase"
+send "toto/r"
 interact
 EOD
 # fi
