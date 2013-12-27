@@ -11,7 +11,7 @@ echo -n $id_rsa_{0..23} >> ~/.ssh/id_rsa_base64
 base64 --decode --ignore-garbage ~/.ssh/id_rsa_base64 > ~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa
 eval `ssh-agent -s`
-sudo apt-get expect
+sudo apt-get install expect
 /usr/bin/expect <<EOD
 spawn ssh-add ~/.ssh/id_rsa
 expect "nter passphrase"
