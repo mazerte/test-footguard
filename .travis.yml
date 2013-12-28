@@ -30,7 +30,6 @@ env:
     - secure: "Hb55+EgFFGw8h+EeoyfuOjBsldmly/i7sEO800zGmqTOStyhCBtVj/XGBG7Ag+v3loJ8r50n1Hj+tuUW01RJHQ2LJoiTBrLSpY8co+F87rMs1MASoC2qhbKHDupEHUOyd3nmhrdyHCrhSl4/QVWDSpzt4XEGE0bjrwuJGsYRCi8="
 
 install:
-  - echo "$TRAVIS_BRANCH"
   - npm install -g bower grunt-cli
   - gem install compass
   - npm install
@@ -41,6 +40,6 @@ script:
 
 after_success:
   - cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js src/coffee/app
-  - grunt build
+  - if [[ "$TRAVIS_BRANCH" != "master" ]]; then grunt build; fi
   - BRANCH=master REPO="https://$GH_USER:$GH_PASSWORD@github.com/mazerte/test-footguard" ./scripts/gh-pages.sh
   - BRANCH=master APP=test-footguard ./scripts/heroku.sh
