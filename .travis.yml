@@ -4,7 +4,6 @@ node_js:
 env:
   global:
     - secure: "hc0s49uOKKAlM/np6jCd4il3K0fI+gv/cQZTuu0f5xJEWxp9I4BuhDNjA/vzesA0192Z784pjjpuLkB63W7c7oEPuudhwxUbv80GCwdq2v2vI7i+tAdqLCGTlFl8VwsolSLI/g3DQTjxL54zuHxb9EIvlmkAu3togPtPSGS7DZA="
-    - secure: "Lbi2depd+/VD/uc4vYmpEKcxgLftpFjLpoYLRuTlR25pXxjLVeTejqYoGBpdy32iTLG5+VthERZEm9zFtT67WaoUxE37+aoP1YYEUr5FHYCJsN5QPOnrwSUKE0ts7yH5z0HGeKCDy7O3VV3QhZ9jUt84iGk+w/WspD1pmcQZ9mk="
 
     - secure: "Mr5Hk9o4/3FDrPS6W7bpkt9DSGvKY3syTFFZZABMOGIKty1i7ELG65Po/fplQFvhFi4eewEUy0PzckevqHbIh8ZYAKa9DQjNw2Gz8fjvG1cFPbqPqALcW0kLEH/FBTGIWk0Gqsp/DunMf4mukYS52rqf7ED3g7qcZNbB8bUB7mw="
     - secure: "F3kKrUnlmoZ/BjIvX9YOiqouP3cfi4QGDkK5TxIMuoJ9crZpK8BDaayNGZyS6YoJgI9gUuaD5wE9l+ir7gbaSNm8X03WM9cS6LM7iLwYYBMbakx+XuoobMQOew/kXOZAxTfj2fUJIMs8Qxv8rQ8q1IKABk/OjXSXQ4uXBIZTaQM="
