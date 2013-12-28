@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ ! -z "$BRANCH" ] && [ "$BRANCH" == *"$TRAVIS_BRANCH"* ]; then
+if [ ! -z "$BRANCH" ] && [ "$BRANCH" == "$TRAVIS_BRANCH" ]; then
 	echo -e "\033[33m Not for this $TRAVIS_BRANCH branch."
 	exit 1
 fi
