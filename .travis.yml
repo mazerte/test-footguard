@@ -40,6 +40,6 @@ script:
 
 after_success:
   - cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js src/coffee/app
-  - if [[ "$TRAVIS_BRANCH" != "master" ]]; then grunt build; fi
+  - if [[ "$TRAVIS_BRANCH" == "master" ]]; then grunt build; fi
   - BRANCH=master REPO="https://$GH_USER:$GH_PASSWORD@github.com/mazerte/test-footguard" ./scripts/gh-pages.sh
   - BRANCH=master APP=test-footguard ./scripts/heroku.sh
